@@ -1,0 +1,210 @@
+*{
+    font-family: cursive;
+}
+.page-icons{
+    position: fixed;
+}
+
+.react-logo{
+    position:fixed;
+    right:12rem;
+    top:24.7rem;
+    width:5%;
+}
+.js-logo{
+    position:fixed;
+    width:4%;
+    right:2rem;
+    top:24rem;
+}
+.css-logo{
+    position: fixed;
+    width: 5%;
+    top: 24.7rem;
+    right:7rem;
+}
+.html-logo{
+    position: fixed;
+    width: 5%;
+    top:24.7rem;
+    right:17rem;
+}
+.myself{
+    position: fixed;
+    right:30px;
+    top:8rem;
+    border-radius: 50%; 
+    border: 5px solid gold;
+    width: 20%;
+}
+.myself:hover{
+    transform: translateY(-0.5rem);
+}
+.hero-content{
+    position: fixed;
+    top:9rem;
+    max-width: 40rem;
+}
+.hero-content h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.hero-content p{
+    position: fixed;
+    max-width: 40rem;
+    top:20.1rem;
+    color:white;
+    font-size: 1.2rem;
+}
+.hero-img > div > img{
+    width:25rem;
+    transition: all 0.3s ease;
+}
+
+.page-icons.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.65rem;
+    border: 1.9px solid gold;
+}
+.hero-img>div>img:hover,
+.tech-icons img:hover{
+    transform: translateY(-0.5rem);
+}
+
+@media(max-width:992px){
+    .hero-content h2{
+        position: fixed;
+        top: 6rem;
+        max-width: 19rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .hero-content p{
+        position: fixed;
+        top: 14rem;
+        max-width: 17rem;
+        font-size:1rem;
+    }
+    .myself{
+        position: fixed;
+        top: 21rem;
+        left: 3rem;
+    }
+    
+    
+}
+@media (max-width:426px){
+    .hero-content h2{
+        position: fixed;
+        top: 3rem;
+        max-width: 10rem;
+        font-size: 0.8em;
+        
+    }
+    .hero-content p{
+        position: fixed;
+        top: 8rem;
+        max-width: 10rem;
+        font-size:0.8rem;
+    }
+    .myself{
+        position: fixed;
+        top:15rem;
+        left:10px;
+        width:140px;
+    }
+    .react-logo{
+        width:40px;
+    }
+    .html-logo{
+        width:40px;
+    }
+    .css-logo{
+        width:40px;
+    }
+    .js-logo{
+        width:40px;
+    }
+}
+@media (max-width:1440px){
+    .css-logo{
+        position: fixed;
+        top: 25rem;
+        right: 8rem;
+        width:100px;
+    }
+    .html-logo{
+        position: fixed;
+        top: 24.3rem;
+        right:20rem;
+        width:100px;
+    }
+    .js-logo{
+        position: fixed;
+        top: 24.0rem;
+        width:80px;
+    }
+    .react-logo{
+        position: fixed;
+        top: 25rem;
+        right:14rem;
+        width:100px;
+    }
+}
+@media (max-width:280px){
+    .css-logo{
+        position: fixed;
+        width: 60px;
+    }
+    .react-logo{
+        position: fixed;
+        left: 1px;
+        width:60px;
+    }
+    .js-logo{
+        position: fixed;
+        top: 24.2rem;
+        left: 13rem;
+        width:50px;
+    }
+    .html-logo{
+        position:fixed;
+        left:4rem;
+        top: 25rem;
+        width:60px;
+    }
+}
+@media (max-width:376px){
+    .html-logo{
+        width: 50px;
+    }
+    .react-logo{
+        position:fixed;
+        top:24.4rem;
+        left: 4rem;
+        width: 50px;
+    }
+    .css-logo{
+        position: fixed;
+        width:50px;
+        top:24.5rem;
+        left: 8rem;
+    }
+    .js-logo{
+        position:fixed;
+        width:45px;
+        top:23.7rem;
+        left:12rem;
+    }
+}
+@media (max-width:321px){
+    .html-logo{
+        position: fixed;
+        left: 0;
+        width:50px;
+    }
+}
+    

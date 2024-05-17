@@ -1,0 +1,26 @@
+
+.container{
+  max-width: 1300px !important;
+  margin:0 auto;
+  position: relative;
+}
+
+body{
+  background: cover;
+  background: no-repeat;
+  background-image:url(./assets/D-Huhu.png) ; 
+  background-size: cover;
+  background-position:center;
+}
+.whatsapp_float{
+  position: fixed;
+  top:0;
+  color: green;
+}
+@media (max-width:1300px){
+  .container{
+    padding:0 1.5rem;
+  }
+}
+
+

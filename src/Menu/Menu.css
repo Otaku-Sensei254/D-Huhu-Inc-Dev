@@ -1,0 +1,138 @@
+.menu-class{
+    position: relative;
+    top:3.5rem;
+    left:20rem;
+    display: block;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    overflow:hidden;
+    width:50%;
+    justify-content: center;
+}
+.menu-class ul{
+    display: block;
+}
+.menu-class li{
+    list-style:none;
+    justify-content: space-between;
+    padding: 0.7rem;
+
+}
+.menu-class ul li a{
+    position: relative;
+    justify-content: center;
+    list-style: none;
+    display: block;
+    color:white;
+    margin-right: 3rem;
+    padding:0.7rem;
+    
+}
+.menu-class ul li a:hover{
+        color:gold;
+}
+.tap-me{
+    background-color: black;
+    color:black;
+    width:100%;
+    position:relative;
+    right:25px;
+    top:10px;
+    padding:0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius:20px;
+    font-weight:600 ;
+    cursor: pointer;   
+    transition: scale 0.5s ease-in-out;
+}
+.tap-me:hover{
+    color:Gold;
+    scale:1.05;
+}
+.tap-me:active{
+    scale:0.95s;
+}
+
+    
+
+.menu-item{
+    display: none;
+    position:absolute;
+    top:15px;
+    right:2rem;
+    width: 600px;
+    height:30rem;
+    
+}
+.tap-me-menu{
+    display: none;
+}
+
+@media (max-width: 992px){
+    .tap-menu{
+        display:block;
+    
+    }
+    .tap-me-menu{
+        display: block;
+        position: absolute;
+        top:0;
+        left:32rem;
+        border-radius: 0.65rem;
+        border:1.5px solid gold
+    }
+    .menu-item{
+        display: block;
+    }
+    .menu-class{
+        position: absolute;
+    }
+    
+}
+@media (max-width:318px){
+    .menu-class{
+    position: relative;
+    top:3.5rem;
+    left:20rem;
+    display: block;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    overflow:hidden;
+    width:25%;
+    justify-content: center;
+    }
+}
+@media (max-width:740px){
+    .menu-class{
+        position: relative;
+        top:3.5rem;
+        left:25rem;
+        width:30%
+    }
+
+}
+@media(max-width:426px){
+    .menu-class{
+        position: absolute;
+        left:29rem;
+        width:25%;
+    }
+    .menu-class li{
+        padding: 0.1rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media(max-width:280px){
+    .tap-me-menu{
+        position: absolute;
+        top: 0;
+    }
+    .tap-menu{
+        position: absolute;
+        left: 0;
+    }
+}
